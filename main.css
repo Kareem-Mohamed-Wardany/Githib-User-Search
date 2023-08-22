@@ -1,0 +1,382 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(20, 28, 47);
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+.main .devh {
+  position: absolute;
+  top: -120px;
+  left: 20px;
+  color: white;
+  font-size: 50px;
+}
+@media (max-width: 767px) {
+  .main .devh {
+    font-size: 25px;
+    top: -60px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main .devh {
+    font-size: 35px;
+    top: -80px;
+  }
+}
+.main .searchdiv {
+  background-color: rgb(31, 42, 72);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  height: 100px;
+}
+@media (max-width: 767px) {
+  .main .searchdiv {
+    width: 350px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main .searchdiv {
+    width: 500px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main .searchdiv {
+    width: 700px;
+  }
+}
+@media (min-width: 1200px) {
+  .main .searchdiv {
+    width: 700px;
+  }
+}
+.main .searchdiv img {
+  width: 50px;
+}
+.main .searchdiv input {
+  position: relative;
+  outline: none;
+  bottom: -25px;
+  left: 25px;
+  height: 50px;
+  padding: 5px 35px 5px 40px;
+  color: white;
+  font-family: "'Roboto', sans-serif;";
+  border: rgb(31, 42, 72);
+  background-color: rgb(31, 42, 72);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+@media (max-width: 767px) {
+  .main .searchdiv input {
+    width: 250px;
+    font-size: small;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main .searchdiv input {
+    width: 350px;
+    font-size: medium;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main .searchdiv input {
+    width: 650px;
+    font-size: large;
+  }
+}
+@media (min-width: 1200px) {
+  .main .searchdiv input {
+    width: 650px;
+    font-size: large;
+  }
+}
+.main .searchdiv input:focus {
+  outline: none;
+}
+.main .searchdiv input::-moz-placeholder {
+  color: white;
+  font-family: "'Roboto', sans-serif;";
+}
+.main .searchdiv input::placeholder {
+  color: white;
+  font-family: "'Roboto', sans-serif;";
+}
+.main .searchdiv button {
+  position: relative;
+  background-color: rgb(0, 121, 254);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  font-family: "'Roboto', sans-serif;";
+}
+@media (max-width: 767px) {
+  .main .searchdiv button {
+    width: 100px;
+    font-size: small;
+    top: 25.5px;
+    left: -6px;
+    height: 35px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main .searchdiv button {
+    width: 150px;
+    font-size: medium;
+    top: 25.5px;
+    left: -5px;
+    height: 35px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main .searchdiv button {
+    width: 650px;
+    font-size: large;
+    top: -17.5px;
+    left: 525px;
+    width: 150px;
+    height: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  .main .searchdiv button {
+    width: 650px;
+    font-size: large;
+    top: -17.5px;
+    left: 525px;
+    width: 150px;
+    height: 35px;
+  }
+}
+.main .searchdiv .search {
+  position: absolute;
+  top: 37.5px;
+  left: 25px;
+  width: 25px;
+}
+.main .resdiv {
+  background-color: rgb(31, 42, 72);
+  margin-top: 10px;
+  height: 350px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+@media (max-width: 767px) {
+  .main .resdiv {
+    width: 350px;
+    height: 270px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main .resdiv {
+    width: 500px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main .resdiv {
+    width: 700px;
+  }
+}
+@media (min-width: 1200px) {
+  .main .resdiv {
+    width: 700px;
+  }
+}
+.main .resdiv .Userimg {
+  padding: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+@media (max-width: 767px) {
+  .main .resdiv .Userimg {
+    width: 125px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main .resdiv .Userimg {
+    width: 200px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main .resdiv .Userimg {
+    width: 250px;
+  }
+}
+@media (min-width: 1200px) {
+  .main .resdiv .Userimg {
+    width: 250px;
+  }
+}
+.main .resdiv .NameH1 {
+  width: 400px;
+  position: relative;
+  top: -220px;
+  left: 300px;
+  color: white;
+  margin: 0;
+  font-family: "'Roboto', sans-serif;";
+  font-size: 25px;
+}
+@media (max-width: 767px) {
+  .main .resdiv .NameH1 {
+    width: 210px;
+    top: -120px;
+    left: 35%;
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main .resdiv .NameH1 {
+    width: 350px;
+    top: -190px;
+    left: 40%;
+    font-size: 22px;
+  }
+}
+.main .resdiv .Dateh {
+  width: 150px;
+  position: relative;
+  top: -200px;
+  left: 550px;
+  color: white;
+  margin: 0;
+  font-family: "'Roboto', sans-serif;";
+  font-size: 15px;
+}
+@media (max-width: 767px) {
+  .main .resdiv .Dateh {
+    width: 200px;
+    top: -115px;
+    left: 35%;
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main .resdiv .Dateh {
+    width: 350px;
+    top: -185px;
+    left: 40%;
+    font-size: 22px;
+  }
+}
+.main .resdiv .Bioh {
+  width: 250px;
+  position: relative;
+  top: -217.5px;
+  left: 280px;
+  color: white;
+  margin: 0;
+  font-family: "'Roboto', sans-serif;";
+  font-size: 15px;
+}
+@media (max-width: 767px) {
+  .main .resdiv .Bioh {
+    width: 200px;
+    top: -110px;
+    left: 35%;
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main .resdiv .Bioh {
+    width: 290px;
+    top: -180px;
+    left: 40%;
+    font-size: 22px;
+  }
+}
+.main .resdiv .Datadiv {
+  position: absolute;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  top: 260px;
+  left: 250px;
+  width: 400px;
+  height: 120px;
+  background-color: rgb(20, 28, 47);
+}
+@media (max-width: 767px) {
+  .main .resdiv .Datadiv {
+    width: 300px;
+    top: 230px;
+    left: 10%;
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main .resdiv .Datadiv {
+    width: 400px;
+    top: 300px;
+    left: 10%;
+    font-size: 22px;
+  }
+}
+.main .resdiv .repos {
+  font-family: "'Roboto', sans-serif;";
+  color: white;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main .resdiv .repos::before {
+  content: "Repos";
+  padding: 20px;
+}
+.main .resdiv .Following {
+  font-family: "'Roboto', sans-serif;";
+  font-size: 15px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main .resdiv .Following::before {
+  content: "Following";
+  padding: 20px;
+}
+.main .resdiv .Followers {
+  font-family: "'Roboto', sans-serif;";
+  font-size: 15px;
+  color: white;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main .resdiv .Followers::before {
+  content: "Followers";
+  padding: 20px;
+}/*# sourceMappingURL=main.css.map */
